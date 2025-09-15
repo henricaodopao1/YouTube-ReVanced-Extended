@@ -14,13 +14,3 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube'"
 included-patches = "'Visual preferences icons for YouTube' 'Return YouTube Username'"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/system_neutral1_900 -OlightThemeBackgroundColor=@android:color/system_neutral1_50"
-
-[YouTube-Music-Extended]
-app-name = "YouTube Music"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "both"
-version = "8.30.54"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
-included-patches = "'Visual preferences icons for YouTube Music' 'Return YouTube Username' 'Disable music video in album'"
